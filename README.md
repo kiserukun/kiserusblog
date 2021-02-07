@@ -46,13 +46,10 @@ https://koondate.herokuapp.com
 -ログイン中のユーザーはコメントすることができます。
 
 **トップページ**
-<img width="1328" alt="スクリーンショット 2021-01-17 9 22 04" src="https://user-images.githubusercontent.com/73691576/104827842-b2f23d00-58a5-11eb-83ad-bf886997c9d3.png">
 
 **投稿ページ**
-<img width="1328" alt="スクリーンショット 2021-01-17 9 19 25" src="https://user-images.githubusercontent.com/73691576/104827839-b1c11000-58a5-11eb-8168-e103a26334e8.png">
 
 **投稿後**
-<img width="1328" alt="スクリーンショット 2021-01-17 9 19 52" src="https://user-images.githubusercontent.com/73691576/104827840-b259a680-58a5-11eb-9e03-95a1de5f36ab.png">
 
 # 今後実装したいこと
 
