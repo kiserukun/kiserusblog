@@ -154,6 +154,7 @@ input[type="text"]{
 .main{
 background-color: #F8F8F8;
 padding-top: 50px;
+height: 100vh;
 }
 
 .greeting{
@@ -312,17 +313,6 @@ padding-top: 50px;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-}
-/* フッター */
-
-.footer {
-  background-color: #999;
-  padding: 10px 0;
-}
-.copyright {
-  text-align: center;
-  color: #fff;
-  font-size: 10px;
 }
 
 /* タブレット対応 */
