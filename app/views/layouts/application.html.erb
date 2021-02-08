@@ -22,7 +22,7 @@
           <% if user_signed_in? %>
              <div class="nav__right">
                <%= link_to  "#{current_user.name}さん", root_path, class: :greeting__link%>
-               <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: :nav__logout %>
+               <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: :nav__btn %>
                </div>
           <% else %>
             <div class="nav__right">
