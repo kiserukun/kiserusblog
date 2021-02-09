@@ -322,6 +322,11 @@ height: 100vh;
   justify-content: space-between;
   align-items: center;
 }
+#image-list{
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}
 
 /* タブレット対応 */
 @media (max-width: 1024px) {
