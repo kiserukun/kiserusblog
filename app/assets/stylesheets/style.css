@@ -159,9 +159,7 @@ input[type="text"]{
 
 /* メイン */
 .main{
-background-color: #F8F8F8;
 padding-top: 50px;
-height: 100vh;
 }
 
 .greeting{
@@ -277,7 +275,6 @@ height: 100vh;
 }
 
 .prototype__comments{
-  background-color: #f6f6f6;
   padding: 20px;
   margin: 28px 0 40px 0;
 }
@@ -323,8 +320,8 @@ height: 100vh;
   align-items: center;
 }
 #image-list{
-  width: 50%;
-  height: 50%;
+  width: 35%;
+  height: 35%;
   margin: 0 auto;
 }
 
