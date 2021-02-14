@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_01_26_143123) do
+ActiveRecord::Schema.define(version: 2021_02_14_141050) do
 
   create_table "active_storage_attachments", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name", null: false
@@ -33,6 +33,15 @@ ActiveRecord::Schema.define(version: 2021_01_26_143123) do
     t.index ["key"], name: "index_active_storage_blobs_on_key", unique: true
   end
 
+  create_table "blog_tag_relations", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.bigint "blogs_id"
+    t.bigint "tag_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["blogs_id"], name: "index_blog_tag_relations_on_blogs_id"
+    t.index ["tag_id"], name: "index_blog_tag_relations_on_tag_id"
+  end
+
   create_table "blogs", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "title", default: "", null: false
     t.text "matter"
@@ -46,6 +55,12 @@ ActiveRecord::Schema.define(version: 2021_01_26_143123) do
     t.integer "user_id"
     t.integer "blog_id"
     t.text "text"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "tags", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "key_name", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -64,5 +79,7 @@ ActiveRecord::Schema.define(version: 2021_01_26_143123) do
   end
 
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
+  add_foreign_key "blog_tag_relations", "blogs", column: "blogs_id"
+  add_foreign_key "blog_tag_relations", "tags"
   add_foreign_key "blogs", "users"
 end

@@ -1,0 +1,2 @@
+class BlogTagRelation < ApplicationRecord
+end
