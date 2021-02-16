@@ -11,7 +11,7 @@ https://kiserusblog.herokuapp.com
 
 # 企画背景
 今までの学習経験を形にするにはどうしたらいいか考えた結果、MVCをイメージしながら作れる自分のブログサイトを作成することにしました。
-コメント機能をつけることでユーザー同士のつながりを広くすることができます。
+コメント機能をつけることでユーザー同士のつながりを広げることができます。
 
 # テストアカウント
 
@@ -42,7 +42,8 @@ https://kiserusblog.herokuapp.com
 - 同じユーザーは自分の投稿を編集、削除できます。
 
 **投稿ページ**
-<img width="1171" alt="スクリーンショット 2021-02-16 22 39 54" src="https://user-images.githubusercontent.com/73691576/108070688-25725a80-70a8-11eb-968b-18615e0c7d4e.png">
+<img width="1171" alt="スクリーンショット 2021-02-16 22 39 42" src="https://user-images.githubusercontent.com/73691576/108071144-b9dcbd00-70a8-11eb-92f6-903b298905fe.png">
+
 
 **投稿後**
 <img width="1171" alt="スクリーンショット 2021-02-16 22 39 54" src="https://user-images.githubusercontent.com/73691576/108070636-168ba800-70a8-11eb-951e-c53057a3852e.png">
