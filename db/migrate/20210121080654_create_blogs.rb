@@ -3,6 +3,7 @@ class CreateBlogs < ActiveRecord::Migration[6.0]
     create_table :blogs do |t|
       t.string :title,         null: false, default: ""
       t.text :matter
+      t.string :message, null:false
       t.references :user, foreign_key: true
 
       t.timestamps
