@@ -5,14 +5,14 @@ class BlogTag
   
     with_options presence: true do
       validates :message
-      validates :name
+      validates :key_name
     end
   
     def save
-      tweet = Tweet.create(message: message)
-      tag = Tag.create(name: name)
+      blog = Blog.create(message: message)
+      tag = Tag.create(key_name: key_name)
   
-      TweetTagRelation.create(tweet_id: tweet.id, tag_id: tag.id)
+      BlogTagRelation.create(blog_id: blog.id, tag_id: tag.id)
     end
   
   end
