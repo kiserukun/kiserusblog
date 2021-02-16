@@ -4,7 +4,7 @@
 
 # 概要
 
-https://koondate.herokuapp.com
+https://kiserusblog.herokuapp.com
 
 自分のブログサイトが作成したく作成しました。
 
@@ -41,15 +41,19 @@ https://koondate.herokuapp.com
 - タイトル、記事、画像を張ることで投稿することができます。
 - 同じユーザーは自分の投稿を編集、削除できます。
 
+**投稿ページ**
+<img width="1171" alt="スクリーンショット 2021-02-16 22 39 54" src="https://user-images.githubusercontent.com/73691576/108070688-25725a80-70a8-11eb-968b-18615e0c7d4e.png">
+
+**投稿後**
+<img width="1171" alt="スクリーンショット 2021-02-16 22 39 54" src="https://user-images.githubusercontent.com/73691576/108070636-168ba800-70a8-11eb-951e-c53057a3852e.png">
+
 ## コメント機能
 
 -ログイン中のユーザーはコメントすることができます。
 
-**トップページ**
+**コメント**
+<img width="1171" alt="スクリーンショット 2021-02-16 22 40 10" src="https://user-images.githubusercontent.com/73691576/108070657-1c818900-70a8-11eb-9a78-c2ed249c6ab5.png">
 
-**投稿ページ**
-
-**投稿後**
 
 # 今後実装したいこと
 
