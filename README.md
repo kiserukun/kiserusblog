@@ -35,11 +35,17 @@ https://kiserusblog.herokuapp.com
 ## ユーザー
 
 - ユーザー登録、ログイン、ログアウトすることができます。
+<img width="1079" alt="スクリーンショット 2021-02-17 9 26 34" src="https://user-images.githubusercontent.com/73691576/108138900-41a2e580-7102-11eb-8c36-d2b4b90377ac.png">
+
 
 ## 投稿機能
 
 - タイトル、記事、画像を張ることで投稿することができます。
 - 同じユーザーは自分の投稿を編集、削除できます。
+
+**トップページ**
+<img width="1293" alt="スクリーンショット 2021-02-17 9 22 37" src="https://user-images.githubusercontent.com/73691576/108138712-e244d580-7101-11eb-9381-c722f3e72e06.png">
+
 
 **投稿ページ**
 <img width="1171" alt="スクリーンショット 2021-02-16 22 39 42" src="https://user-images.githubusercontent.com/73691576/108071144-b9dcbd00-70a8-11eb-92f6-903b298905fe.png">
@@ -58,6 +64,6 @@ https://kiserusblog.herokuapp.com
 
 # 今後実装したいこと
 
-- メニュー欄の充実とデザイン
 - レスポンシブデザイン
-- いいね、お気に入り、コメント機能
+- いいね機能
+- タグ機能
