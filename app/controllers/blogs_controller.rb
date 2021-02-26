@@ -42,9 +42,8 @@ before_action :move_to_index, except: [:index, :show]
     blog.destroy
     redirect_to root_path
   end
-
+  
   private
-
   def blog_params
     params.require(:blog).permit(:title,:matter,:image).merge(user_id: current_user.id)
   end
