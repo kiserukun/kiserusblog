@@ -15,6 +15,7 @@ class BlogTag
       BlogTagRelation.create(blog_id: blog.id, tag_id: tag.id)
     end
   
+    
   end
   belongs_to :blog
   belongs_to :tag
